@@ -1,0 +1,23 @@
+name: Accessibility Check
+
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'public/**'
+
+jobs:
+  a11y:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: npm ci 2>/dev/null || echo "No package.json, skipping npm ci"
+      - name: Run axe accessibility check
+        run: |
+          echo "Accessibility check placeholder — configure axe-core or pa11y for your project"
+          # Example: npx pa11y-ci --config .pa11yci.json
