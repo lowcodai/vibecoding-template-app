@@ -28,4 +28,4 @@ This project covers: web applications, REST/GraphQL APIs, MVPs, SaaS tools, port
 - `.github/instructions/github-actions-ci-cd-best-practices.instructions.md`
 
 ## References
-- Governance: https://github.com/itshaker/itshaker-copilot-governance
+- Governance: https://github.com/lowcodai/itshaker-copilot-governance
