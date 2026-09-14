@@ -2,7 +2,7 @@
 
 > Template for web applications, APIs, MVPs, portals, SaaS products, or internal tools.
 
-[![Governance](https://img.shields.io/badge/governance-itshaker-blue)](https://github.com/lowcodai/itshaker-copilot-governance)
+[![Governance](https://img.shields.io/badge/governance-lowcodai-blue)](https://github.com/lowcodai/itshaker-copilot-governance)
 
 ## Description
 
