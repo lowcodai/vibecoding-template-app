@@ -1,53 +1,56 @@
 # itshaker-template-app
 
-> Template pour applications web, API, MVP, portail, SaaS ou outil interne.
+> Template for web applications, APIs, MVPs, portals, SaaS products, or internal tools.
 
-[![Governance](https://img.shields.io/badge/governance-itshaker-blue)](https://github.com/itshaker/itshaker-copilot-governance)
+[![Governance](https://img.shields.io/badge/governance-itshaker-blue)](https://github.com/lowcodai/itshaker-copilot-governance)
 
 ## Description
 
-Template GitHub pour applications et APIs itshaker. Inclut tout `itshaker-template-base` plus :
-- Structure `src/`, `tests/`, `public/`
-- Instructions accessibilité (WCAG 2.1 AA)
-- Instructions Docker et CI/CD
-- Workflows : CI, release automatisée, a11y-check
-- Hook `dependency-license-checker`
+GitHub template for itshaker applications and APIs. Includes everything from
+`itshaker-template-base`, plus:
+- `src/`, `tests/`, `public/` structure
+- Accessibility instructions (WCAG 2.1 AA)
+- Docker and CI/CD instructions
+- Workflows: CI, automated release, a11y-check
+- `dependency-license-checker` hook
 
-## Utilisation
+## Usage
 
 ```bash
 cd itshaker-bootstrap
-./scripts/new-project.sh --type app --name <mon-app>
+./scripts/new-project.sh --type app --name <my-app>
 ```
 
-## Structure spécifique app
+## App-specific structure
 
 ```
 .
-├── src/      # Code source principal
-├── tests/    # Tests unitaires, intégration, e2e
-└── public/   # Assets statiques publics
+├── src/      # Main source code
+├── tests/    # Unit, integration, e2e tests
+└── public/   # Public static assets
 ```
 
 ## Conventions
 
-- **Accessibilité** : WCAG 2.1 AA minimum. Vérification via `a11y-check.yml`.
-- **Tests** : coverage ≥ 80%. Pas de merge sans tests verts.
-- **API** : OpenAPI/Swagger spec obligatoire pour toute API REST.
-- **Docker** : `Dockerfile` avec image minimale, build multi-stage recommandé.
+- **Accessibility**: WCAG 2.1 AA minimum. Checked via `a11y-check.yml`.
+- **Tests**: coverage ≥ 80%. No merge without passing tests.
+- **API**: OpenAPI/Swagger spec required for every REST API.
+- **Docker**: `Dockerfile` with a minimal image, multi-stage build recommended.
 
-## Éléments Awesome Copilot spécifiques
+## App-specific Awesome Copilot elements
 
-| Élément | Type | Usage |
+| Element | Type | Usage |
 |---------|------|-------|
-| `a11y.instructions.md` | Instruction | Standards accessibilité |
+| `a11y.instructions.md` | Instruction | Accessibility standards |
 | `containerization-docker-best-practices.instructions.md` | Instruction | Docker |
-| `dependency-license-checker` | Hook | Licences |
-| `fix-broken-links` | Hook | Liens brisés dans la doc |
-| `accessibility` | Agent | Expert accessibilité |
-| `accessibility-runtime-tester` | Agent | Tests accessibilité runtime |
+| `dependency-license-checker` | Hook | Licenses |
+| `fix-broken-links` | Hook | Broken links in docs |
+| `accessibility` | Agent | Accessibility expert |
+| `accessibility-runtime-tester` | Agent | Runtime accessibility testing |
 
-## Références
+See `.github/copilot-instructions.md` for this repo's full active hooks list, and the [governance hooks registry](https://github.com/lowcodai/itshaker-copilot-governance/blob/main/docs/awesome-copilot-map.md) for the full ecosystem-wide catalog.
 
-- [itshaker-copilot-governance](https://github.com/itshaker/itshaker-copilot-governance)
+## References
+
+- [itshaker-copilot-governance](https://github.com/lowcodai/itshaker-copilot-governance)
 - [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
