@@ -48,8 +48,7 @@ cd itshaker-bootstrap
 | `accessibility` | Agent | Accessibility expert |
 | `accessibility-runtime-tester` | Agent | Runtime accessibility testing |
 
-See the [governance hooks registry](https://github.com/lowcodai/itshaker-copilot-governance/blob/main/docs/awesome-copilot-map.md)
-for the full ecosystem-wide list.
+See `.github/copilot-instructions.md` for this repo's full active hooks list, and the [governance hooks registry](https://github.com/lowcodai/itshaker-copilot-governance/blob/main/docs/awesome-copilot-map.md) for the full ecosystem-wide catalog.
 
 ## References
 
