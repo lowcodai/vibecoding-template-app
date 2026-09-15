@@ -1,13 +1,13 @@
-# itshaker-template-app
+# vibecoding-template-app
 
 > Template for web applications, APIs, MVPs, portals, SaaS products, or internal tools.
 
-[![Governance](https://img.shields.io/badge/governance-lowcodai-blue)](https://github.com/lowcodai/itshaker-copilot-governance)
+[![Governance](https://img.shields.io/badge/governance-lowcodai-blue)](https://github.com/lowcodai/vibecoding-copilot-governance)
 
 ## Description
 
-GitHub template for itshaker applications and APIs. Includes everything from
-`itshaker-template-base`, plus:
+GitHub template for vibecoding applications and APIs. Includes everything from
+`vibecoding-template-base`, plus:
 - `src/`, `tests/`, `public/` structure
 - Accessibility instructions (WCAG 2.1 AA)
 - Docker and CI/CD instructions
@@ -17,7 +17,7 @@ GitHub template for itshaker applications and APIs. Includes everything from
 ## Usage
 
 ```bash
-cd itshaker-bootstrap
+cd vibecoding-bootstrap
 ./scripts/new-project.sh --type app --name <my-app>
 ```
 
@@ -48,9 +48,9 @@ cd itshaker-bootstrap
 | `accessibility` | Agent | Accessibility expert |
 | `accessibility-runtime-tester` | Agent | Runtime accessibility testing |
 
-See `.github/copilot-instructions.md` for this repo's full active hooks list, and the [governance hooks registry](https://github.com/lowcodai/itshaker-copilot-governance/blob/main/docs/awesome-copilot-map.md) for the full ecosystem-wide catalog.
+See `.github/copilot-instructions.md` for this repo's full active hooks list, and the [governance hooks registry](https://github.com/lowcodai/vibecoding-copilot-governance/blob/main/docs/awesome-copilot-map.md) for the full ecosystem-wide catalog.
 
 ## References
 
-- [itshaker-copilot-governance](https://github.com/lowcodai/itshaker-copilot-governance)
+- [vibecoding-copilot-governance](https://github.com/lowcodai/vibecoding-copilot-governance)
 - [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
